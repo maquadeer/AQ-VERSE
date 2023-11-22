@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abdul Quadeer&#39;s blog</title>
+    <link>/</link>
+    <description>Recent content on Abdul Quadeer&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Mohammad Abdul Quadeer</copyright>
+    <lastBuildDate>Thu, 09 Nov 2023 21:55:57 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CN chapter-1</title>
+      <link>/cn-chapter/cn-chapter-1/</link>
+      <pubDate>Thu, 09 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/cn-chapter/cn-chapter-1/</guid>
+      <description>Data Communication Components #   Representation of Data Communication #    Data communication involves the exchange of information between two or more devices using a communication medium.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/cn-chapter/cn-chapter-1/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>CN LAB</title>
+      <link>/cn-chapter/cn-lab/</link>
+      <pubDate>Mon, 06 Nov 2023 11:20:05 +0530</pubDate>
+      
+      <guid>/cn-chapter/cn-lab/</guid>
+      <description>Program-1 : Network Command Explanation #   tcpdump #  tcpdump is a packet analyzer tool that allows you to capture and analyze network traffic.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/cn-chapter/cn-lab/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>Debian based linux distro Setup</title>
+      <link>/posts/linux-setup/</link>
+      <pubDate>Sun, 05 Nov 2023 22:57:34 +0530</pubDate>
+      
+      <guid>/posts/linux-setup/</guid>
+      <description>Things to Do After Installing a Debian-Based Distro #  Congratulations on installing your Debian-based Linux distribution!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/linux-setup/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>AI chapter-1</title>
+      <link>/ai-chapter/ai-chapter-1/</link>
+      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ai-chapter/ai-chapter-1/</guid>
+      <description>Problem Solving &amp;amp; Search #   Introduction to Intelligence #    Artificial Intelligence (AI) is a multidisciplinary field that seeks to create intelligent agents capable of emulating human-like behaviors such as problem-solving, learning, understanding natural language, and interacting with the environment.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ai-chapter/ai-chapter-1/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>AI lab</title>
+      <link>/ai-chapter/ai-lab/</link>
+      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ai-chapter/ai-lab/</guid>
+      <description>AI lab #   Week-1(from list) #  # -*- coding: utf-8 -*- &amp;#34;&amp;#34;&amp;#34;week1_listset.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ai-chapter/ai-lab/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Basic R</title>
+      <link>/ds-chapter/basic-r/</link>
+      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ds-chapter/basic-r/</guid>
+      <description>R Programming Language #   Introduction #  R is a robust programming language and environment designed for statistical computing and data analysis.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ds-chapter/basic-r/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>DS chapter-1</title>
+      <link>/ds-chapter/ds-chapter-1/</link>
+      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ds-chapter/ds-chapter-1/</guid>
+      <description>Data Science #   Introduction to Data Science #   Definition #  Data Science is an interdisciplinary field that leverages scientific methods, processes, algorithms, and systems to extract insights and knowledge from structured and unstructured data.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ds-chapter/ds-chapter-1/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Git Guide</title>
+      <link>/posts/git-guide/</link>
+      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/posts/git-guide/</guid>
+      <description>Detailed explanation of commonly used Git commands #   Configuration #   Configure User Information #  Set your name and email address that will be associated with your Git commits:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/git-guide/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Vim Setup for Competitive Programming</title>
+      <link>/posts/vim-setup/</link>
+      <pubDate>Sun, 05 Nov 2023 19:26:09 +0530</pubDate>
+      
+      <guid>/posts/vim-setup/</guid>
+      <description>Basic vim setup #   [!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/vim-setup/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>AI chapter-2</title>
+      <link>/ai-chapter/ai-chapter-2/</link>
+      <pubDate>Sat, 04 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ai-chapter/ai-chapter-2/</guid>
+      <description>Knowledge, Reasoning &amp;amp; Planning #   Reasoning #   Knowledge-Based Agent #    A knowledge-based agent is a sophisticated system designed to utilize knowledge for decision-making and problem-solving.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ai-chapter/ai-chapter-2/feature.jpeg" />
+    </item>
+    
+  </channel>
+</rss>

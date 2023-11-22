@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CN-chapters on Abdul Quadeer&#39;s blog</title>
+    <link>/cn-chapter/</link>
+    <description>Recent content in CN-chapters on Abdul Quadeer&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Mohammad Abdul Quadeer</copyright>
+    <lastBuildDate>Thu, 09 Nov 2023 21:55:57 +0530</lastBuildDate><atom:link href="/cn-chapter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CN chapter-1</title>
+      <link>/cn-chapter/cn-chapter-1/</link>
+      <pubDate>Thu, 09 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/cn-chapter/cn-chapter-1/</guid>
+      <description>Data Communication Components #   Representation of Data Communication #    Data communication involves the exchange of information between two or more devices using a communication medium.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/cn-chapter/cn-chapter-1/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>CN LAB</title>
+      <link>/cn-chapter/cn-lab/</link>
+      <pubDate>Mon, 06 Nov 2023 11:20:05 +0530</pubDate>
+      
+      <guid>/cn-chapter/cn-lab/</guid>
+      <description>Program-1 : Network Command Explanation #   tcpdump #  tcpdump is a packet analyzer tool that allows you to capture and analyze network traffic.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/cn-chapter/cn-lab/feature.jpeg" />
+    </item>
+    
+  </channel>
+</rss>
