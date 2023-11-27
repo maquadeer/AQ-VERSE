@@ -3,7 +3,8 @@ title: "PPL QUIZ"
 date: 2023-11-05T21:55:57+05:30
 draft: false
 ---
-# 1st Answer
+<details>
+<summary> 1st Answer</summary> 
 ## Reasons for Studying Concepts of Programming Languages
 
 ## Increased Ability to Express Ideas
@@ -72,3 +73,4 @@ draft: false
 - Scripting involves putting a list of commands (script) in a file for execution.
 - Example: PHP, a scripting language used on web server systems.
 - Code embedded in HTML documents, interpreted on the server before sending to the requesting browser.
+</details>
