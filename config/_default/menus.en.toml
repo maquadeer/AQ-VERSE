@@ -37,6 +37,12 @@
  pageRef = "DS-chapter"
  weight = 20
 
+[[main]]
+ name = "PPL"
+ parent = "CS-COURSE"
+ pageRef = "PPL-chapter"
+ weight = 20
+
 #[[subnavigation]]
 #  name = "An interesting topic"
 #  pageRef = "tags/interesting-topic"
