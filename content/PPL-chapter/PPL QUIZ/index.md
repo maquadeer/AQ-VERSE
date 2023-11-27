@@ -186,6 +186,33 @@ draft: false
 </details>
 <hr>
 <details>
+<summary>6th answer</summary>
+
+### Ambiguity in Grammar:
+
+In the context of formal grammars, ambiguity refers to a situation where the same sequence of symbols in a programming language can be parsed in more than one way. It introduces uncertainty and makes it challenging for the parser to determine the correct syntactic structure of the input.
+
+#### Characteristics of Ambiguous Grammars:
+
+1. **Multiple Parse Trees:** Ambiguous grammars can generate multiple parse trees for a single input string.
+
+2. **Parsing Conflicts:** Parsing becomes ambiguous when there are multiple possibilities for the next production to apply during the parsing process.
+
+### Differences between Ambiguous and Unambiguous Grammars:
+
+| Feature                     | Ambiguous Grammar                                  | Unambiguous Grammar                                |
+|-----------------------------|----------------------------------------------------|----------------------------------------------------|
+| **Definition**              | Allows multiple interpretations for the same input | Provides a unique parse tree for each input        |
+| **Parse Trees**              | Can have multiple parse trees for a single input   | Has a unique parse tree for each valid input       |
+| **Clarity**                  | May introduce confusion in understanding syntax    | Offers clarity and a straightforward structure     |
+| **Parsing Difficulty**       | Generally harder to parse due to multiple choices  | Easier to parse as there is a clear parsing path   |
+| **Example**                  | The classic example is the ambiguous arithmetic expression grammar where "3 + 5 * 2" can be parsed in different ways | A simple arithmetic expression grammar where the order of operations is well-defined |
+| **Ambiguity Resolution**     | Requires additional rules or disambiguation techniques to resolve ambiguity | No need for disambiguation techniques, as there is a unique parsing path |
+| **Precedence and Associativity** | Ambiguity may arise in operator precedence and associativity | Well-defined rules for operator precedence and associativity ensure unambiguous parsing |
+
+</details>
+<hr>
+<details>
 <summary>7th answer</summary>
 <details>
   <summary>De-notational Semantics</summary>
