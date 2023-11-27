@@ -6,7 +6,7 @@ draft: false
 <details>
 <summary> 1st Answer</summary> 
 <details>
-  <summary>### Increased Ability to Express Ideas</summary>
+  <summary>Increased Ability to Express Ideas</summary>
 
   1. Depth of thought influenced by language expressiveness.
   2. Difficulty conceptualizing structures without descriptive language.
@@ -16,14 +16,14 @@ draft: false
 </details>
 
 <details>
-  <summary>### Improved Background for Choosing Appropriate Languages</summary>
+  <summary>Improved Background for Choosing Appropriate Languages</summary>
 
   1. Programmers tend to favor familiar languages, even if unsuitable for new projects.
   2. Familiarity with a range of languages empowers informed language selection.
 </details>
 
 <details>
-  <summary>### Greater Ability to Learn New Languages</summary>
+  <summary>Greater Ability to Learn New Languages</summary>
 
   1. Continuous evolution of programming languages necessitates ongoing learning.
   2. Understanding object-oriented programming facilitates learning languages like Java.
@@ -31,21 +31,21 @@ draft: false
 </details>
 
 <details>
-  <summary> ### Understand Significance of Implementation</summary>
+  <summary> Understand Significance of Implementation</summary>
 
   1. Insight into implementation issues illuminates the design rationale of languages.
   2. Enables intelligent use of a language according to its intended design.
 </details>
 
 <details>
-  <summary> ### Ability to Design New Languages</summary>
+  <summary> Ability to Design New Languages</summary>
 
   1. Knowledge of multiple languages enhances understanding of programming language concepts.
   2. Proficiency in designing new languages based on comprehensive knowledge.
 </details>
 
 <details>
-  <summary> ### Overall Advancement of Computing</summary>
+  <summary> Overall Advancement of Computing</summary>
 
   1. Instances where language popularity did not align with conceptual superiority.
   2. Historical example: ALGOL 60 vs. Fortran, possibly influenced by lack of understanding of ALGOL 60's conceptual design.
@@ -53,7 +53,7 @@ draft: false
 </details>
 
 <details>
-  <summary> ### Scientific Applications</summary>
+  <summary> Scientific Applications</summary>
 
   1. Invention of computers in the 40s for scientific applications.
   2. Requirement for large-scale floating-point computations.
@@ -62,7 +62,7 @@ draft: false
 </details>
 
 <details>
-  <summary> ### Business Applications</summary>
+  <summary> Business Applications</summary>
 
   1. COBOL as the first successful language for business applications.
   2. Emphasis on report generation, decimal arithmetic, and character manipulation.
@@ -71,21 +71,21 @@ draft: false
 </details>
 
 <details>
-  <summary> ### Artificial Intelligence</summary>
+  <summary> Artificial Intelligence</summary>
 
   1. Symbolic computations in AI, favoring linked lists over arrays.
   2. LISP as the first widely used AI programming language.
 </details>
 
 <details>
-  <summary> ### Systems Programming</summary>
+  <summary> Systems Programming</summary>
 
   1. O/S and programming support tools collectively known as system software.
   2. Efficiency crucial due to continuous use.
 </details>
 
 <details>
-  <summary> ### Scripting Languages</summary>
+  <summary> Scripting Languages</summary>
 
   1. Scripting involves putting a list of commands (script) in a file for execution.
   2. Example: PHP, a scripting language used on web server systems.
