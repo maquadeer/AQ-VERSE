@@ -186,3 +186,147 @@ draft: false
 
 
 <details>
+<summary>7th answer</summary>
+<details>
+  <summary>De-notational Semantics</summary>
+
+  - Based on recursive function theory, the most abstract semantics description method.
+  - Originally developed by Scott and Strachey.
+
+  <details>
+    <summary>The Process of Building a De-notational Specification</summary>
+
+    1. Define a mathematical object for each language entity.
+    2. Define a function that maps instances of language entities onto instances of corresponding mathematical objects.
+  </details>
+
+  - The meaning of language constructs is defined by the values of the program's variables.
+  - Difference between denotational and operational semantics: In operational semantics, state changes are defined by coded algorithms; in denotational semantics, they are defined by rigorous mathematical functions.
+
+  <details>
+    <summary>State of a Program</summary>
+
+    - The state of a program is the values of all its current variables, represented as `s = {<i1, v1>, <i2, v2>, ..., <in, vn>}`.
+    - `VARMAP` is a function that, given a variable name and a state, returns the current value of the variable: `VARMAP (ij, s) = vj`.
+  </details>
+
+  <details>
+    <summary>Decimal Numbers</summary>
+
+    - `<dec_num>` can be 0, 1, 2, ..., 9 or `<dec_num>` followed by (0, 1, 2, ..., 9).
+    - `Mdec` functions map decimal numbers to their corresponding values.
+  </details>
+
+  <details>
+    <summary>Expressions</summary>
+
+    - `Me(<expr>, s)` evaluates expressions based on their types:
+      - `<dec_num>`: `Mdec(<dec_num>, s)`
+      - `<var>`: `VARMAP(<var>, s)`
+      - `<binary_expr>`: Operates based on the operator.
+  </details>
+
+  <details>
+    <summary>Assignment Statements</summary>
+
+    - `Ma(x := E, s)` assigns the value of expression `E` to variable `x` in state `s`.
+  </details>
+
+  <details>
+    <summary>Logical Pretest Loops</summary>
+
+    - `Ml(while B do L, s)` represents the meaning of a pretest loop.
+    - The loop is converted from iteration to recursion, mathematically defined by recursive state mapping functions.
+  </details>
+
+  <details>
+    <summary>Evaluation of De-notational Semantics</summary>
+
+    - Can be used to prove the correctness of programs.
+    - Provides a rigorous way to think about programs.
+    - Can aid in language design.
+    - Used in compiler generation systems.
+  </details>
+</details>
+
+<details>
+  <summary>Axiomatic Semantics</summary>
+
+  - Based on formal logic (first-order predicate calculus).
+  - Original purpose: formal program verification.
+  - Approach: Define axioms or inference rules for each statement type in the language.
+  - Expressions are called assertions.
+  - An assertion before a statement (precondition) states relationships and constraints among variables.
+  - An assertion after a statement is a postcondition.
+  - Weakest precondition is the least restrictive precondition guaranteeing the postcondition.
+
+  <details>
+    <summary>Pre-Post Form: {P} statement {Q}</summary>
+
+    - Example: `a := b + 1 {a > 1}`.
+    - One possible precondition: `{b > 10}`.
+    - Weakest precondition: `{b > 0}`.
+  </details>
+
+  <details>
+    <summary>Program Proof Process</summary>
+
+    - Postcondition for the whole program is the desired result.
+    - Work back through the program to the first statement.
+    - If the precondition on the first statement matches the program spec, the program is correct.
+  </details>
+
+  <details>
+    <summary>Inference Rule for Logical Pretest Loops</summary>
+
+    - For the loop construct: `{P} while B do S end {Q}`.
+    - Inference rule involves a loop invariant (I).
+    - Characteristics of the loop invariant:
+      - `P => I` (initially true).
+      - `{I} B {I}` (Boolean evaluation does not change the validity of I).
+      - `{I and B} S {I}` (I is not changed by executing the loop body).
+      - `(I and (not B)) => Q` (if I is true and B is false, Q is implied).
+      - Loop termination (can be difficult to prove).
+      - I is a weakened version of the loop postcondition and also a precondition.
+  </details>
+
+  <details>
+    <summary>Evaluation of Axiomatic Semantics</summary>
+
+    - Developing axioms or inference rules for all statements in a language is challenging.
+    - Good for correctness proofs and an excellent framework for reasoning about programs.
+    - Not as useful for language users and compiler writers.
+  </details>
+</details>
+
+<details>
+  <summary>Attribute Grammar Attributes</summary>
+
+  - `actual_type`: synthesized for `<var>` and `<expr>`
+  - `expected_type`: inherited for `<expr>`
+</details>
+
+<details>
+  <summary>How are attribute values computed?</summary>
+
+  1. If all attributes were inherited, the tree could be decorated in top-down order.
+  2. If all attributes were synthesized, the tree could be decorated in bottom-up order.
+  3. In many cases, both kinds of attributes are used, and it is some combination of top-down and bottom-up that must be used.
+
+  <details>
+    <summary>Attribute Dependencies</summary>
+
+    - `<expr>.env` inherited from parent
+    - `<expr>.expected_type` inherited from parent
+    - `<var>[1].env` depends on `<expr>.env`
+    - `<var>[2].env` depends on `<expr>.env`
+    - `<var>[1].actual_type`: `lookup(A, <var>[1].env)`
+    - `<var>[2].actual_type`: `lookup(B, <var>[2].env)`
+    - `<var>[1].actual_type =? <var>[2].actual_type`
+    - `<expr>.actual_type`: `<var>[1].actual_type`
+    - `<expr>.actual_type =? <expr>.expected_type`
+  </details>
+</details>
+
+
+</details>
