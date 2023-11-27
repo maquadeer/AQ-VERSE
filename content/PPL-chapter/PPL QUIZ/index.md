@@ -93,3 +93,96 @@ draft: false
 </details>
 
 </details>
+<hr>
+
+<details>
+<summary> 2nd answer</summary>
+
+<details>
+  <summary>Language Evaluation Criteria</summary>
+
+  <details>
+    <summary>Readability</summary>
+
+    1. Software development was largely thought of in terms of writing code (LOC).
+    2. Language constructs designed more from the point of view of computers than users.
+    3. Readability became crucial for ease of maintenance.
+    4. Shift from machine orientation to human orientation.
+  </details>
+
+  <details>
+    <summary>Overall Simplicity</summary>
+
+    - Too many features make the language difficult to learn.
+    - Multiplicity of features complicates the language.
+    - Example: Java has multiple ways to increment a variable.
+    - Operator overloading can reduce readability if not used sensibly.
+  </details>
+
+  <details>
+    <summary>Orthogonality</summary>
+
+    1. Makes the language easy to learn and read.
+    2. Meaning is context-independent.
+    3. A relatively small set of primitive constructs can be combined in a relatively small number of ways.
+    4. Every possible combination is legal and meaningful.
+    5. ALGOL 68 is an example of highly orthogonal design.
+    6. However, excessive orthogonality can lead to unnecessary complexity.
+  </details>
+
+  <details>
+    <summary>Control Statements</summary>
+
+    - Indiscriminate use of goto statements reduced program readability.
+    - Example: Nested loops in C.
+    - Control statement design is now less important for readability than in the past.
+  </details>
+
+  <details>
+    <summary>Data Types and Structures</summary>
+
+    - Adequate facilities for defining data types and structures are significant aids to reliability.
+    - Example: Boolean type.
+  </details>
+
+  <details>
+    <summary>Syntax Considerations</summary>
+
+    - Syntax affects readability.
+    - Examples: Identifier forms, special words, form and meaning alignment.
+  </details>
+</details>
+
+<details>
+  <summary>Writability</summary>
+
+  <details>
+    <summary>Simplicity and Orthogonality</summary>
+
+    - A smaller number of primitive constructs with consistent rules is better.
+    - Support for abstraction allows ignoring details in complicated structures or operations.
+    - Process abstraction is using a subprogram to implement a task instead of replicating it.
+    - Expressivity means having convenient ways of specifying computations.
+  </details>
+
+  <details>
+    <summary>Reliability</summary>
+
+    - A program is reliable if it performs to specifications under all conditions.
+    - Type checking detects type errors, enhancing reliability.
+    - Exception handling aids in intercepting run-time errors.
+    - Aliasing (multiple references to the same memory cell) is considered dangerous.
+    - Readability and writability influence reliability.
+  </details>
+
+  <details>
+    <summary>Cost</summary>
+
+    - Categories affecting cost: training, writing, compiling, executing, language implementation system.
+    - Reliability impacts cost (maintenance costs can be high).
+    - Portability and generality influence cost.
+  </details>
+</details>
+
+
+<details>
