@@ -15,7 +15,6 @@ UseCase Diagrams:
 click image to zoom in
 {{< /alert >}}
 <br>
-
 {{< gallery >}}
   <img src="ATM.png" class="grid-w33" />
   <img src="Library.png" class="grid-w33" />
