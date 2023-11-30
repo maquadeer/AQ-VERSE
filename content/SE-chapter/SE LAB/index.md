@@ -3,7 +3,19 @@ title: "SE LAB"
 date: 2023-11-06T11:20:05+05:30
 draft: false
 ---
-# UseCase Diagrams:
+{{< typeit 
+  tag=h1
+  lifeLike=true
+>}}
+UseCase Diagrams:
+{{< /typeit >}}
+
+
+{{< alert >}}
+click image to zoom in
+{{< /alert >}}
+<br>
+
 {{< gallery >}}
   <img src="ATM.png" class="grid-w33" />
   <img src="Library.png" class="grid-w33" />
@@ -15,7 +27,10 @@ draft: false
 {{< /gallery >}}
 
 ## (THEORY WEEK-1)
-### Unified Modeling Language (UML)
+{{< typeit >}}
+Unified Modeling Language (UML)
+
+{{< /typeit >}}
 
 ### 1. Introduction to UML
 
