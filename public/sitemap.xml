@@ -81,6 +81,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>/ppl-chapter/ppl-quiz/</loc>
+    <lastmod>2023-11-05T21:55:57+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/ppl-chapter/</loc>
+    <lastmod>2023-11-05T21:55:57+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>/posts/vim-setup/</loc>
     <lastmod>2023-11-05T19:26:09+05:30</lastmod>
     <changefreq>daily</changefreq>
