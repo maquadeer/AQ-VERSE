@@ -24,8 +24,18 @@
       <pubDate>Mon, 06 Nov 2023 11:20:05 +0530</pubDate>
       
       <guid>/cn-chapter/cn-lab/</guid>
-      <description>Program-1 : Network Command Explanation #   tcpdump #  tcpdump is a packet analyzer tool that allows you to capture and analyze network traffic.</description>
+      <description>Program-1 : Network Command Explanation #   tcpdump  tcpdump is a packet analyzer tool that allows you to capture and analyze network traffic.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/cn-chapter/cn-lab/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>SE LAB</title>
+      <link>/se-chapter/se-lab/</link>
+      <pubDate>Mon, 06 Nov 2023 11:20:05 +0530</pubDate>
+      
+      <guid>/se-chapter/se-lab/</guid>
+      <description>document.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/se-chapter/se-lab/feature.jpeg" />
     </item>
     
     <item>
