@@ -38,6 +38,12 @@
  weight = 20
 
 [[main]]
+ name = "SE"
+ parent = "CS-COURSE"
+ pageRef = "SE-chapter"
+ weight = 20
+
+[[main]]
  name = "PPL"
  parent = "CS-COURSE"
  pageRef = "PPL-chapter"
