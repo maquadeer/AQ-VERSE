@@ -1,6 +1,6 @@
 ---
 title: "CN LAB"
-date: 2023-11-06T11:20:05+05:30
+date: 2023-11-10T11:20:05+05:30
 draft: false
 ---
 ## Program-1 : Network Command Explanation
