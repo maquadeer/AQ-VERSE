@@ -581,3 +581,10 @@ source = 0
 target = 9
 greedy_best_first_search(source, target, v)
 ```
+```pl
+likes(john,flowers).
+likes(john,chicks).
+likes(john,mangoes).
+hates(john,oranges).
+dislikes(john,study).
+```
