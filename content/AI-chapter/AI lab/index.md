@@ -581,6 +581,7 @@ source = 0
 target = 9
 greedy_best_first_search(source, target, v)
 ```
+### Prolog
 ```pl
 likes(john,flowers).
 likes(john,chicks).
