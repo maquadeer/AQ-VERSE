@@ -528,6 +528,7 @@ aStarAlgo('A', 'G')
 ## Week-5 (BFS-greedy and prolog)
 
 ```py
+# bfs-greedy
 from queue import PriorityQueue
 
 v = 14
