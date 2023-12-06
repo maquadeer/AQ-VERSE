@@ -133,7 +133,7 @@ def my_add(a):
     return b
 print(my_add(4))
 ```
-## Week-2
+## Week-2 (basics + BFS)
 ```py
 # -*- coding: utf-8 -*-
 """week2bfs_s_q.ipynb
@@ -324,7 +324,7 @@ def bfs(graph,initial):
 print(bfs(graph,'3'))
 ```
 
-## Week-3
+## Week-3 (DFS and Best-fit-search)
 ```py
 # -*- coding: utf-8 -*-
 """Untitled10.ipynb
@@ -430,7 +430,7 @@ target = 9
 best_first_search(source, target, v)
 ```
 
-## Week-4
+## Week-4 (a* algo)
 ```py
 def aStarAlgo(start_node, stop_node):
     open_set = set(start_node)
