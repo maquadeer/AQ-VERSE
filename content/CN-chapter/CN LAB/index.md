@@ -35,7 +35,10 @@ T*ELNET is a network protocol that allows terminal access to remote systems. To 
 
 Please note that some of these services/commands may require additional configuration, and some may not be available on all systems. The specific options and usage may vary depending on your operating system and network setup.
 
-
+{{< alert >}}
+ I’ve tried making a program demonstrating all these commands
+{{< /alert >}}
+<br>
 ```c
 // Program containing all commands in switch 
 #include <stdio.h>
