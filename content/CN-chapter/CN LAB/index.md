@@ -38,7 +38,6 @@ Please note that some of these services/commands may require additional configur
 {{< alert >}}
  I’ve tried making a program demonstrating all these commands
 {{< /alert >}}
-<br>
 ```c
 // Program containing all commands in switch 
 #include <stdio.h>
