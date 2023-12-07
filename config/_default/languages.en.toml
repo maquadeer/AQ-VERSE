@@ -16,7 +16,7 @@ title = "Abdul Quadeer's blog"
 [author]
 name = "Mohammad Abdul Quadeer"
 image = "img/author.jpg"
-headline = "Coding, AI, and Linux, my three favorite dimensions in this digital universe. Join me as I navigate the code, tweak algorithms, and embrace the penguin's world. Welcome to my curiosity-driven journey!"
+headline = "Algorithms, Machine Learning, and Linux🐧, my three favorite dimensions in this digital universe. Join me as I navigate the code, tweak algorithms, and embrace the penguin’s world."
 bio = "Coding, AI, and Linux, my three favorite dimensions in this digital universe. Join me as I navigate the code, tweak algorithms, and embrace the penguin's world. Welcome to my curiosity-driven journey!"
 links = [
       { email = "mailto:mdquadeer2003" },

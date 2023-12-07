@@ -4,7 +4,7 @@ date: 2023-11-06T11:20:05+05:30
 draft: false
 ---
 {{< typeit 
-  tag=h1
+  tag=h2
   lifeLike=true
 >}}
 UseCase Diagrams:
@@ -14,6 +14,7 @@ UseCase Diagrams:
 {{< alert >}}
 click image to zoom in
 {{< /alert >}}
+
 <br>
 {{< gallery >}}
   <img src="ATM.png" class="grid-w33" />
@@ -24,7 +25,23 @@ click image to zoom in
   <img src="gallery/06.jpg" class="grid-w33" />
   <img src="gallery/07.jpg" class="grid-w33" /> -->
 {{< /gallery >}}
-
+<hr>
+{{< typeit 
+  tag=h2
+  lifeLike=true
+>}}
+Class Diagrams:
+{{< /typeit >}}
+{{< gallery >}}
+  <img src="PhoneBOOk.png" class="grid-w33" />
+  
+  <!-- <img src="gallery/03.jpg" class="grid-w33" />
+  <img src="gallery/04.jpg" class="grid-w33" />
+  <img src="gallery/05.jpg" class="grid-w33" />
+  <img src="gallery/06.jpg" class="grid-w33" />
+  <img src="gallery/07.jpg" class="grid-w33" /> -->
+{{< /gallery >}}
+<hr>
 ## (THEORY WEEK-1)
 {{< typeit >}}
 Unified Modeling Language (UML)

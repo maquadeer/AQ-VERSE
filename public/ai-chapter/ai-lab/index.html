@@ -99,7 +99,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "562"
+    "wordCount": "943"
   }]
   </script>
 
@@ -264,6 +264,20 @@
           
           <p class="text-sm font-sm text-gray-500 hover:text-gray-900" title="DS-chapters">
             DS
+          </p>
+        </a>
+        
+        <a href="/ppl-chapter/"  class="flex items-center">
+          
+          <p class="text-sm font-sm text-gray-500 hover:text-gray-900" title="PPL-chapters">
+            PPL
+          </p>
+        </a>
+        
+        <a href="/se-chapter/"  class="flex items-center">
+          
+          <p class="text-sm font-sm text-gray-500 hover:text-gray-900" title="SE-chapters">
+            SE
           </p>
         </a>
         
@@ -480,6 +494,24 @@
     </a>
 </li>
 
+<li class="mt-1">
+    <a href="/ppl-chapter/"  class="flex items-center">
+        
+        <p class="text-sm font-small text-gray-500 hover:text-gray-900" title="PPL-chapters">
+            PPL
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/se-chapter/"  class="flex items-center">
+        
+        <p class="text-sm font-small text-gray-500 hover:text-gray-900" title="SE-chapters">
+            SE
+        </p>
+    </a>
+</li>
+
 <li class="mb-2"></li>
 
 
@@ -600,7 +632,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>562 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <span>943 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
     
     <span id="views_AI-chapter/AI lab/index.md" title="views">0</span> 
     
@@ -805,6 +837,7 @@
     <li><a href="#week-1from-list">Week-1(from list)</a></li>
     <li><a href="#week-2">Week-2</a></li>
     <li><a href="#week-3">Week-3</a></li>
+    <li><a href="#week-4">Week-4</a></li>
   </ul>
 </nav>
   </div>
@@ -821,6 +854,7 @@
     <li><a href="#week-1from-list">Week-1(from list)</a></li>
     <li><a href="#week-2">Week-2</a></li>
     <li><a href="#week-3">Week-3</a></li>
+    <li><a href="#week-4">Week-4</a></li>
   </ul>
 </nav>
   </div>
@@ -1283,6 +1317,106 @@
 <span class="n">source</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">target</span> <span class="o">=</span> <span class="mi">9</span>
 <span class="n">best_first_search</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+</code></pre></div><div id="week-4" class="anchor"></div>
+<h2 class="relative group">Week-4 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#week-4" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">aStarAlgo</span><span class="p">(</span><span class="n">start_node</span><span class="p">,</span> <span class="n">stop_node</span><span class="p">):</span>
+    <span class="n">open_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">start_node</span><span class="p">)</span>
+    <span class="n">closed_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="n">g</span> <span class="o">=</span> <span class="p">{}</span>               <span class="c1">#store distance from starting node</span>
+    <span class="n">parents</span> <span class="o">=</span> <span class="p">{}</span>         <span class="c1"># parents contains an adjacency map of all nodes</span>
+    <span class="c1">#distance of starting node from itself is zero</span>
+    <span class="n">g</span><span class="p">[</span><span class="n">start_node</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="c1">#start_node is root node i.e it has no parent nodes</span>
+    <span class="c1">#so start_node is set to its own parent node</span>
+    <span class="n">parents</span><span class="p">[</span><span class="n">start_node</span><span class="p">]</span> <span class="o">=</span> <span class="n">start_node</span>
+    <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">open_set</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">n</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="c1">#node with lowest f() is found</span>
+        <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">open_set</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">g</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">+</span> <span class="n">heuristic</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">g</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">+</span> <span class="n">heuristic</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+                <span class="n">n</span> <span class="o">=</span> <span class="n">v</span>
+        <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="n">stop_node</span> <span class="ow">or</span> <span class="n">Graph_nodes</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">pass</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">for</span> <span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">weight</span><span class="p">)</span> <span class="ow">in</span> <span class="n">get_neighbors</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+                <span class="c1">#nodes &#39;m&#39; not in first and last set are added to first</span>
+                <span class="c1">#n is set its parent</span>
+                <span class="k">if</span> <span class="n">m</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">open_set</span> <span class="ow">and</span> <span class="n">m</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">closed_set</span><span class="p">:</span>
+                    <span class="n">open_set</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+                    <span class="n">parents</span><span class="p">[</span><span class="n">m</span><span class="p">]</span> <span class="o">=</span> <span class="n">n</span>
+                    <span class="n">g</span><span class="p">[</span><span class="n">m</span><span class="p">]</span> <span class="o">=</span> <span class="n">g</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">+</span> <span class="n">weight</span>
+                <span class="c1">#for each node m,compare its distance from start i.e g(m) to the</span>
+                <span class="c1">#from start through n node</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">g</span><span class="p">[</span><span class="n">m</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">g</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">+</span> <span class="n">weight</span><span class="p">:</span>
+                        <span class="c1">#update g(m)</span>
+                        <span class="n">g</span><span class="p">[</span><span class="n">m</span><span class="p">]</span> <span class="o">=</span> <span class="n">g</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">+</span> <span class="n">weight</span>
+                        <span class="c1">#change parent of m to n</span>
+                        <span class="n">parents</span><span class="p">[</span><span class="n">m</span><span class="p">]</span> <span class="o">=</span> <span class="n">n</span>
+                        <span class="c1">#if m in closed set,remove and add to open</span>
+                        <span class="k">if</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">closed_set</span><span class="p">:</span>
+                            <span class="n">closed_set</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+                            <span class="n">open_set</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Path does not exist!&#39;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        
+        <span class="c1"># if the current node is the stop_node</span>
+        <span class="c1"># then we begin reconstructin the path from it to the start_node</span>
+        <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="n">stop_node</span><span class="p">:</span>
+            <span class="n">path</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">while</span> <span class="n">parents</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">!=</span> <span class="n">n</span><span class="p">:</span>
+                <span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+                <span class="n">n</span> <span class="o">=</span> <span class="n">parents</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
+            <span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">start_node</span><span class="p">)</span>
+            <span class="n">path</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Path found: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">path</span><span class="p">))</span>
+            <span class="k">return</span> <span class="n">path</span>
+        <span class="c1"># remove n from the open_list, and add it to closed_list</span>
+        <span class="c1"># because all of his neighbors were inspected</span>
+        <span class="n">open_set</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+        <span class="n">closed_set</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Path does not exist!&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="kc">None</span>
+
+<span class="c1">#define fuction to return neighbor and its distance</span>
+<span class="c1">#from the passed node</span>
+<span class="k">def</span> <span class="nf">get_neighbors</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">Graph_nodes</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">Graph_nodes</span><span class="p">[</span><span class="n">v</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    
+<span class="c1">#for simplicity we ll consider heuristic distances given</span>
+<span class="c1">#and this function returns heuristic distance for all nodes</span>
+<span class="k">def</span> <span class="nf">heuristic</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">H_dist</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;A&#39;</span><span class="p">:</span> <span class="mi">11</span><span class="p">,</span>
+        <span class="s1">&#39;B&#39;</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span>
+        <span class="s1">&#39;C&#39;</span><span class="p">:</span> <span class="mi">99</span><span class="p">,</span>
+        <span class="s1">&#39;D&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="s1">&#39;E&#39;</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span>
+        <span class="s1">&#39;G&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">H_dist</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
+
+<span class="c1">#Describe your graph here</span>
+<span class="n">Graph_nodes</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;A&#39;</span><span class="p">:</span> <span class="p">[(</span><span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;E&#39;</span><span class="p">,</span> <span class="mi">3</span><span class="p">)],</span>
+    <span class="s1">&#39;B&#39;</span><span class="p">:</span> <span class="p">[(</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="mi">9</span><span class="p">)],</span>
+    <span class="s1">&#39;C&#39;</span><span class="p">:</span> <span class="p">[(</span><span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)],</span>
+    <span class="s1">&#39;D&#39;</span><span class="p">:</span> <span class="p">[(</span><span class="s1">&#39;E&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)],</span>
+    <span class="s1">&#39;E&#39;</span><span class="p">:</span> <span class="p">[(</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="p">)],</span>
+    <span class="s1">&#39;G&#39;</span><span class="p">:</span> <span class="p">[(</span><span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="mi">9</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)]</span>
+<span class="p">}</span>
+
+<span class="n">aStarAlgo</span><span class="p">(</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;G&#39;</span><span class="p">)</span>
 </code></pre></div>
         </div>
                 
