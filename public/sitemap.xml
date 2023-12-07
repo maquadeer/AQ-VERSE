@@ -4,25 +4,25 @@
 
   <url>
     <loc>/</loc>
-    <lastmod>2023-11-09T21:55:57+05:30</lastmod>
+    <lastmod>2023-11-10T11:20:05+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/cn-chapter/cn-lab/</loc>
+    <lastmod>2023-11-10T11:20:05+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/cn-chapter/</loc>
+    <lastmod>2023-11-10T11:20:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/cn-chapter/cn-chapter-1/</loc>
     <lastmod>2023-11-09T21:55:57+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/cn-chapter/</loc>
-    <lastmod>2023-11-09T21:55:57+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/cn-chapter/cn-lab/</loc>
-    <lastmod>2023-11-06T11:20:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
