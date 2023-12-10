@@ -154,7 +154,7 @@ main(int argc, char * argv[])
 	close(sockid);
 }
 ```
-## Program-2.2 : UDP-client
+## Program-2.2 : UDP-Server
 ```c
 #include<stdio.h>
 
