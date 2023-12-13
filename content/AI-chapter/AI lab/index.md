@@ -589,3 +589,65 @@ likes(john,mangoes).
 hates(john,oranges).
 dislikes(john,study).
 ```
+
+## week-6
+```prolog
+valuable(gold).
+female(jane).
+owns(jane,gold).
+father(john,marry).
+gives(john,book,marry).
+play(john,marry,football).
+play(jane,jim,badminton).
+%2nd example
+likes(john,flowers).
+likes(john,chicks).
+likes(john,mangoes).
+hates(john,orangs).
+dislikes(john,study).
+```
+
+```prolog
+%family
+male(albert).
+male(edward).
+female(alice).
+female(victoria).
+parent(albert,edward).
+parent(victoria,edward).
+father(X,Y):- parent(X,Y),female(X).
+mother(X,Y):- parent(X,Y),female(X).
+```
+
+```prolog
+edge(a,b).
+edge(a,c).
+edge(b,d).
+edge(d,e).
+path(X,Y):- edge(X,Y).
+path(X,Y):- edge(X,Z),path(Z,Y).
+```
+
+```prolog
+female(pam).
+male(tom).
+male(bob).
+female(liz).
+female(pat).
+female(ann).
+male(jim).
+
+parent(pam,bob).
+parent(tom,bob).
+parent(tom,liz).
+parent(bob,ann).
+parent(pat,jim).
+parent(bob,peter).
+parent(peter,jim).
+
+mother(X,Y):- parent(X,Y),female(X).
+sister(X,Y):- parent(Z,X),parent(Z,Y),female(X),X\==Y.
+father(X,Y):- parent(X,Y),male(X).
+haschild(X):- parent(X,_).
+brother(X,Y):-parent(Z,X),parent(Z,Y),male(X),X\==Y.
+```
