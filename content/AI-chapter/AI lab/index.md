@@ -657,3 +657,21 @@ wife(X,Y):- parent(X,Z),parent(Y,Z),female(X),male(Y).
 uncle(X,Z):- brother(X,Y),parent(Y,Z).
 
 ```
+## week-7 (Iris-data-set)
+
+```python
+from sklearn import datasets
+
+iris = datasets.load_iris()
+```
+```python3
+import matplotlib.pyplot as plt
+
+_, ax = plt.subplots()
+scatter = ax.scatter(iris.data[:, 0], iris.data[:, 1], c=iris.target)
+ax.set(xlabel=iris.feature_names[0], ylabel=iris.feature_names[1])
+_ = ax.legend(
+    scatter.legend_elements()[0], iris.target_names, loc="lower right", title="Classes"
+)
+```
+![Image](sl-vs-sw.png)
