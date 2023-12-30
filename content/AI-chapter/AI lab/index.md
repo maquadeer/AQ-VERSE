@@ -589,3 +589,89 @@ likes(john,mangoes).
 hates(john,oranges).
 dislikes(john,study).
 ```
+
+## week-6
+```prolog
+valuable(gold).
+female(jane).
+owns(jane,gold).
+father(john,marry).
+gives(john,book,marry).
+play(john,marry,football).
+play(jane,jim,badminton).
+%2nd example
+likes(john,flowers).
+likes(john,chicks).
+likes(john,mangoes).
+hates(john,orangs).
+dislikes(john,study).
+```
+
+```prolog
+%family
+male(albert).
+male(edward).
+female(alice).
+female(victoria).
+parent(albert,edward).
+parent(victoria,edward).
+father(X,Y):- parent(X,Y),female(X).
+mother(X,Y):- parent(X,Y),female(X).
+```
+
+```prolog
+edge(a,b).
+edge(a,c).
+edge(b,d).
+edge(d,e).
+path(X,Y):- edge(X,Y).
+path(X,Y):- edge(X,Z),path(Z,Y).
+```
+
+```prolog
+female(pam).
+male(tom).
+male(bob).
+female(liz).
+female(pat).
+female(ann).
+male(jim).
+
+parent(pam,bob).
+parent(tom,bob).
+parent(tom,liz).
+parent(bob,ann).
+parent(pat,jim).
+parent(bob,peter).
+parent(peter,jim).
+
+mother(X,Y):- parent(X,Y),female(X).
+sister(X,Y):- parent(Z,X),parent(Z,Y),female(X),X\==Y.
+father(X,Y):- parent(X,Y),male(X).
+haschild(X):- parent(X,_).
+brother(X,Y):-parent(Z,X),parent(Z,Y),male(X),X\==Y.
+grandparent(X,Y):- parent(X,Z),parent(Z,Y).
+grandmother(X,Z):- mother(X,Y),parent(Y,Z).
+grandfather(X,Z):- father(X,Y),parent(Y,Z).
+wife(X,Y):- parent(X,Z),parent(Y,Z),female(X),male(Y).
+uncle(X,Z):- brother(X,Y),parent(Y,Z).
+
+```
+## week-7 (Iris-data-set)
+
+```python
+from sklearn import datasets
+
+iris = datasets.load_iris()
+```
+```python3
+import matplotlib.pyplot as plt
+
+_, ax = plt.subplots()
+scatter = ax.scatter(iris.data[:, 0], iris.data[:, 1], c=iris.target)
+ax.set(xlabel=iris.feature_names[0], ylabel=iris.feature_names[1])
+_ = ax.legend(
+    scatter.legend_elements()[0], iris.target_names, loc="lower right", title="Classes"
+)
+```
+![Image](sl-vs-sw.png)
