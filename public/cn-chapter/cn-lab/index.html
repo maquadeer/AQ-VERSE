@@ -99,7 +99,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "688"
+    "wordCount": "864"
   }]
   </script>
 
@@ -632,7 +632,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>688 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <span>864 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
     
     <span id="views_CN-chapter/CN LAB/index.md" title="views">0</span> 
     
@@ -710,7 +710,7 @@
   
   
   <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-    alt="Mohammad Abdul Quadeer" src="/img/author_hu40beb9a17c0d729745a4b6a981c30d86_85789_192x192_fill_q75_box_center.jpg" />
+    alt="Mohammad Abdul Quadeer" src="/img/author_hu0f1786c0ce767e28177e9c8633a4c189_55949_192x192_fill_q75_box_center.jpg" />
   
   
   <div class="place-self-center">
@@ -836,8 +836,9 @@
   <ul>
     <li><a href="#program-1--network-command-explanation">Program-1 : Network Command Explanation</a></li>
     <li><a href="#program-21--udp-client">Program-2.1 : UDP-client</a></li>
-    <li><a href="#program-22--udp-client">Program-2.2 : UDP-client</a></li>
+    <li><a href="#program-22--udp-server">Program-2.2 : UDP-Server</a></li>
     <li><a href="#program-31--tcp-client">Program-3.1 : TCP-client</a></li>
+    <li><a href="#program-32-tcp-server">Program-3.2 (TCP-server)</a></li>
   </ul>
 </nav>
   </div>
@@ -853,8 +854,9 @@
   <ul>
     <li><a href="#program-1--network-command-explanation">Program-1 : Network Command Explanation</a></li>
     <li><a href="#program-21--udp-client">Program-2.1 : UDP-client</a></li>
-    <li><a href="#program-22--udp-client">Program-2.2 : UDP-client</a></li>
+    <li><a href="#program-22--udp-server">Program-2.2 : UDP-Server</a></li>
     <li><a href="#program-31--tcp-client">Program-3.1 : TCP-client</a></li>
+    <li><a href="#program-32-tcp-server">Program-3.2 (TCP-server)</a></li>
   </ul>
 </nav>
   </div>
@@ -907,6 +909,37 @@
 </ul>
 <p><code>traceroute</code> is a network diagnostic tool used to trace the route that packets take from your computer to a destination host (e.g., &lsquo;example.com&rsquo;). It displays a list of intermediate routers and their response times.</p>
 <p>Please note that some of these services/commands may require additional configuration, and some may not be available on all systems. The specific options and usage may vary depending on your operating system and network setup.</p>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    >I’ve tried making a program demonstrating all these commands</span>
+</div>
+
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="c1">// Program containing all commands in switch 
 </span><span class="c1"></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
 </span><span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
@@ -1025,12 +1058,12 @@
 	<span class="n">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\n</span><span class="s"> message received is %s </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span><span class="n">m2</span><span class="p">);</span>
 	<span class="n">close</span><span class="p">(</span><span class="n">sockid</span><span class="p">);</span>
 <span class="p">}</span>
-</code></pre></div><div id="program-22--udp-client" class="anchor"></div>
-<h2 class="relative group">Program-2.2 : UDP-client 
+</code></pre></div><div id="program-22--udp-server" class="anchor"></div>
+<h2 class="relative group">Program-2.2 : UDP-Server 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#program-22--udp-client" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#program-22--udp-server" aria-label="Anchor">#</a></span>        
     
 </h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
@@ -1134,6 +1167,82 @@
 	<span class="n">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">Server response is %s&#34;</span><span class="p">,</span><span class="n">m2</span><span class="p">);</span>
 	<span class="n">close</span><span class="p">(</span><span class="n">sockid</span><span class="p">);</span>
 <span class="p">}</span>
+</code></pre></div><div id="program-32-tcp-server" class="anchor"></div>
+<h2 class="relative group">Program-3.2 (TCP-server) 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#program-32-tcp-server" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;sys/types.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;sys/socket.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;netinet/in.h&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">sid</span><span class="p">,</span> <span class="n">sid1</span><span class="p">,</span> <span class="n">rval</span><span class="p">;</span>
+    <span class="k">struct</span> <span class="n">sockaddr_in</span> <span class="n">s</span><span class="p">,</span> <span class="n">c</span><span class="p">;</span>
+    <span class="kt">char</span> <span class="n">buffer</span><span class="p">[</span><span class="mi">20</span><span class="p">];</span>
+    <span class="kt">int</span> <span class="n">clen</span><span class="p">;</span>
+
+    <span class="n">system</span><span class="p">(</span><span class="s">&#34;clear&#34;</span><span class="p">);</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">USAGE : %s IP_ADDRESS PORT#</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+        <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="n">sid</span> <span class="o">=</span> <span class="n">socket</span><span class="p">(</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">SOCK_STREAM</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">sid</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">perror</span><span class="p">(</span><span class="s">&#34;SOCK-CRE-ERR:&#34;</span><span class="p">);</span>
+        <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="cm">/* DEFINING NAME OF THE SERVICE */</span>
+    <span class="n">s</span><span class="p">.</span><span class="n">sin_family</span> <span class="o">=</span> <span class="n">AF_INET</span><span class="p">;</span>
+    <span class="n">s</span><span class="p">.</span><span class="n">sin_addr</span><span class="p">.</span><span class="n">s_addr</span> <span class="o">=</span> <span class="n">inet_addr</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+    <span class="n">s</span><span class="p">.</span><span class="n">sin_port</span> <span class="o">=</span> <span class="n">htons</span><span class="p">(</span><span class="n">atoi</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]));</span>
+
+    <span class="cm">/* BIND SOCKET - indicates the process that is listening */</span>
+    <span class="n">rval</span> <span class="o">=</span> <span class="n">bind</span><span class="p">(</span><span class="n">sid</span><span class="p">,</span> <span class="p">(</span><span class="k">struct</span> <span class="n">sockaddr</span> <span class="o">*</span><span class="p">)</span><span class="o">&amp;</span><span class="n">s</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">s</span><span class="p">));</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">rval</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">perror</span><span class="p">(</span><span class="s">&#34;BIND-ERR:&#34;</span><span class="p">);</span>
+        <span class="n">close</span><span class="p">(</span><span class="n">sid</span><span class="p">);</span>
+        <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="n">rval</span> <span class="o">=</span> <span class="n">listen</span><span class="p">(</span><span class="n">sid</span><span class="p">,</span> <span class="mi">5</span><span class="p">);</span> <span class="c1">// range: 1-5
+</span><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span><span class="n">rval</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">perror</span><span class="p">(</span><span class="s">&#34;LISTEN-ERR:&#34;</span><span class="p">);</span>
+        <span class="n">close</span><span class="p">(</span><span class="n">sid</span><span class="p">);</span>
+        <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="n">clen</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">c</span><span class="p">);</span>
+    <span class="n">sid1</span> <span class="o">=</span> <span class="n">accept</span><span class="p">(</span><span class="n">sid</span><span class="p">,</span> <span class="p">(</span><span class="k">struct</span> <span class="n">sockaddr</span> <span class="o">*</span><span class="p">)</span><span class="o">&amp;</span><span class="n">c</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">clen</span><span class="p">);</span>
+    <span class="n">rval</span> <span class="o">=</span> <span class="n">recv</span><span class="p">(</span><span class="n">sid1</span><span class="p">,</span> <span class="n">buffer</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">buffer</span><span class="p">),</span> <span class="mi">0</span><span class="p">);</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">rval</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">perror</span><span class="p">(</span><span class="s">&#34;MSG-RCV-ERR:&#34;</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">Client request is %s</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">buffer</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="n">rval</span> <span class="o">=</span> <span class="n">send</span><span class="p">(</span><span class="n">sid1</span><span class="p">,</span> <span class="n">buffer</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">buffer</span><span class="p">),</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">rval</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">perror</span><span class="p">(</span><span class="s">&#34;MSG-SND-ERR:&#34;</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">Response sent</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="n">close</span><span class="p">(</span><span class="n">sid</span><span class="p">);</span>
+    <span class="n">close</span><span class="p">(</span><span class="n">sid1</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
 </code></pre></div>
         </div>
                 
