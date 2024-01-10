@@ -48,6 +48,8 @@ Unified Modeling Language (UML)
 
 {{< /typeit >}}
 
+<hr>
+
 {{< typeit >}}
 Sequence diagrams
 
@@ -61,6 +63,9 @@ Sequence diagrams
   <img src="gallery/06.jpg" class="grid-w33" />
   <img src="gallery/07.jpg" class="grid-w33" /> -->
 {{< /gallery >}}
+
+<hr>
+
 {{< typeit >}}
 Collab diagrams
 
