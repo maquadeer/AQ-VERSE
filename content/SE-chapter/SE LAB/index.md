@@ -50,28 +50,15 @@ Unified Modeling Language (UML)
 
 <hr>
 
-{{< typeit >}}
-Sequence diagrams
+{{< typeit
+    tag=h2
+>}}
+Sequence and Collab diagrams
 
 {{< /typeit >}}
 {{< gallery >}}
-  <img src="ATM_SEQ.png" class="grid-w33" />
-  
-  <!-- <img src="gallery/03.jpg" class="grid-w33" />
-  <img src="gallery/04.jpg" class="grid-w33" />
-  <img src="gallery/05.jpg" class="grid-w33" />
-  <img src="gallery/06.jpg" class="grid-w33" />
-  <img src="gallery/07.jpg" class="grid-w33" /> -->
-{{< /gallery >}}
-
-<hr>
-
-{{< typeit >}}
-Collab diagrams
-
-{{< /typeit >}}
-{{< gallery >}}
-  <img src="ATM_Collab.png" class="grid-w33" />
+ <img src="ATM_SEQ.png" class="grid-w33" />
+ <img src="ATM_Collab.png" class="grid-w33" />
   
   <!-- <img src="gallery/03.jpg" class="grid-w33" />
   <img src="gallery/04.jpg" class="grid-w33" />
