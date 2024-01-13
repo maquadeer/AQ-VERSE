@@ -48,6 +48,25 @@ Unified Modeling Language (UML)
 
 {{< /typeit >}}
 
+<hr>
+
+{{< typeit
+    tag=h2
+>}}
+Sequence and Collab diagrams
+
+{{< /typeit >}}
+{{< gallery >}}
+ <img src="ATM_SEQ.png" class="grid-w33" />
+ <img src="ATM_Collab.png" class="grid-w33" />
+  
+  <!-- <img src="gallery/03.jpg" class="grid-w33" />
+  <img src="gallery/04.jpg" class="grid-w33" />
+  <img src="gallery/05.jpg" class="grid-w33" />
+  <img src="gallery/06.jpg" class="grid-w33" />
+  <img src="gallery/07.jpg" class="grid-w33" /> -->
+{{< /gallery >}}
+
 ### 1. Introduction to UML
 
 Unified Modeling Language (UML) is a comprehensive language used for visualizing, specifying, constructing, and documenting software systems. It provides a standardized approach to system design, allowing software professionals to communicate and understand complex concepts through visual representations.
