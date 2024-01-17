@@ -675,3 +675,8 @@ _ = ax.legend(
 )
 ```
 ![Image](sl-vs-sw.png)
+
+## week-8 
+
+<embed src= "{{ .Get 0 }}" width= "100%" height= "1000px" type="application/pdf" >
+{{< pdfReader "PIMA Indian Diabetes.pdf" >}}
