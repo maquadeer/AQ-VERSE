@@ -678,5 +678,4 @@ _ = ax.legend(
 
 ## week-8 
 
-<embed src= "{{ .Get 0 }}" width= "100%" height= "1000px" type="application/pdf" >
-{{< pdfReader "PIMA Indian Diabetes.pdf" >}}
+
