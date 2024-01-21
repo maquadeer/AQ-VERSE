@@ -99,7 +99,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1128"
+    "wordCount": "1232"
   }]
   </script>
 
@@ -632,7 +632,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>1128 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <span>1232 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
     
     <span id="views_AI-chapter/AI lab/index.md" title="views">0</span> 
     
@@ -710,7 +710,7 @@
   
   
   <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-    alt="Mohammad Abdul Quadeer" src="/img/author_hu40beb9a17c0d729745a4b6a981c30d86_85789_192x192_fill_q75_box_center.jpg" />
+    alt="Mohammad Abdul Quadeer" src="/img/author_hu280fe0b773d12d87327d81fb9fda015c_318776_192x192_fill_q75_box_center.jpg" />
   
   
   <div class="place-self-center">
@@ -843,6 +843,8 @@
         <li><a href="#prolog">Prolog</a></li>
       </ul>
     </li>
+    <li><a href="#week-6">week-6</a></li>
+    <li><a href="#week-7-iris-data-set">week-7 (Iris-data-set)</a></li>
   </ul>
 </nav>
   </div>
@@ -865,6 +867,8 @@
         <li><a href="#prolog">Prolog</a></li>
       </ul>
     </li>
+    <li><a href="#week-6">week-6</a></li>
+    <li><a href="#week-7-iris-data-set">week-7 (Iris-data-set)</a></li>
   </ul>
 </nav>
   </div>
@@ -1500,7 +1504,117 @@
 <span class="n">likes</span><span class="p">(</span><span class="n">john</span><span class="p">,</span><span class="n">mangoes</span><span class="p">)</span><span class="o">.</span>
 <span class="n">hates</span><span class="p">(</span><span class="n">john</span><span class="p">,</span><span class="n">oranges</span><span class="p">)</span><span class="o">.</span>
 <span class="n">dislikes</span><span class="p">(</span><span class="n">john</span><span class="p">,</span><span class="nb">study</span><span class="p">)</span><span class="o">.</span>
-</code></pre></div>
+</code></pre></div><div id="week-6" class="anchor"></div>
+<h2 class="relative group">week-6 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#week-6" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-prolog" data-lang="prolog"><span class="nf">valuable</span><span class="p">(</span><span class="s">gold</span><span class="p">).</span>
+<span class="nf">female</span><span class="p">(</span><span class="s">jane</span><span class="p">).</span>
+<span class="nf">owns</span><span class="p">(</span><span class="s">jane</span><span class="p">,</span><span class="s">gold</span><span class="p">).</span>
+<span class="nf">father</span><span class="p">(</span><span class="s">john</span><span class="p">,</span><span class="s">marry</span><span class="p">).</span>
+<span class="nf">gives</span><span class="p">(</span><span class="s">john</span><span class="p">,</span><span class="s">book</span><span class="p">,</span><span class="s">marry</span><span class="p">).</span>
+<span class="nf">play</span><span class="p">(</span><span class="s">john</span><span class="p">,</span><span class="s">marry</span><span class="p">,</span><span class="s">football</span><span class="p">).</span>
+<span class="nf">play</span><span class="p">(</span><span class="s">jane</span><span class="p">,</span><span class="s">jim</span><span class="p">,</span><span class="s">badminton</span><span class="p">).</span>
+<span class="c1">%2nd example</span>
+<span class="nf">likes</span><span class="p">(</span><span class="s">john</span><span class="p">,</span><span class="s">flowers</span><span class="p">).</span>
+<span class="nf">likes</span><span class="p">(</span><span class="s">john</span><span class="p">,</span><span class="s">chicks</span><span class="p">).</span>
+<span class="nf">likes</span><span class="p">(</span><span class="s">john</span><span class="p">,</span><span class="s">mangoes</span><span class="p">).</span>
+<span class="nf">hates</span><span class="p">(</span><span class="s">john</span><span class="p">,</span><span class="s">orangs</span><span class="p">).</span>
+<span class="nf">dislikes</span><span class="p">(</span><span class="s">john</span><span class="p">,</span><span class="s">study</span><span class="p">).</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-prolog" data-lang="prolog"><span class="c1">%family</span>
+<span class="nf">male</span><span class="p">(</span><span class="s">albert</span><span class="p">).</span>
+<span class="nf">male</span><span class="p">(</span><span class="s">edward</span><span class="p">).</span>
+<span class="nf">female</span><span class="p">(</span><span class="s">alice</span><span class="p">).</span>
+<span class="nf">female</span><span class="p">(</span><span class="s">victoria</span><span class="p">).</span>
+<span class="nf">parent</span><span class="p">(</span><span class="s">albert</span><span class="p">,</span><span class="s">edward</span><span class="p">).</span>
+<span class="nf">parent</span><span class="p">(</span><span class="s">victoria</span><span class="p">,</span><span class="s">edward</span><span class="p">).</span>
+<span class="nf">father</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">):-</span> <span class="nf">parent</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">),</span><span class="nf">female</span><span class="p">(</span><span class="nv">X</span><span class="p">).</span>
+<span class="nf">mother</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">):-</span> <span class="nf">parent</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">),</span><span class="nf">female</span><span class="p">(</span><span class="nv">X</span><span class="p">).</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-prolog" data-lang="prolog"><span class="nf">edge</span><span class="p">(</span><span class="s">a</span><span class="p">,</span><span class="s">b</span><span class="p">).</span>
+<span class="nf">edge</span><span class="p">(</span><span class="s">a</span><span class="p">,</span><span class="s">c</span><span class="p">).</span>
+<span class="nf">edge</span><span class="p">(</span><span class="s">b</span><span class="p">,</span><span class="s">d</span><span class="p">).</span>
+<span class="nf">edge</span><span class="p">(</span><span class="s">d</span><span class="p">,</span><span class="s">e</span><span class="p">).</span>
+<span class="nf">path</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">):-</span> <span class="nf">edge</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">).</span>
+<span class="nf">path</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">):-</span> <span class="nf">edge</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Z</span><span class="p">),</span><span class="nf">path</span><span class="p">(</span><span class="nv">Z</span><span class="p">,</span><span class="nv">Y</span><span class="p">).</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-prolog" data-lang="prolog"><span class="nf">female</span><span class="p">(</span><span class="s">pam</span><span class="p">).</span>
+<span class="nf">male</span><span class="p">(</span><span class="s">tom</span><span class="p">).</span>
+<span class="nf">male</span><span class="p">(</span><span class="s">bob</span><span class="p">).</span>
+<span class="nf">female</span><span class="p">(</span><span class="s">liz</span><span class="p">).</span>
+<span class="nf">female</span><span class="p">(</span><span class="s">pat</span><span class="p">).</span>
+<span class="nf">female</span><span class="p">(</span><span class="s">ann</span><span class="p">).</span>
+<span class="nf">male</span><span class="p">(</span><span class="s">jim</span><span class="p">).</span>
+
+<span class="nf">parent</span><span class="p">(</span><span class="s">pam</span><span class="p">,</span><span class="s">bob</span><span class="p">).</span>
+<span class="nf">parent</span><span class="p">(</span><span class="s">tom</span><span class="p">,</span><span class="s">bob</span><span class="p">).</span>
+<span class="nf">parent</span><span class="p">(</span><span class="s">tom</span><span class="p">,</span><span class="s">liz</span><span class="p">).</span>
+<span class="nf">parent</span><span class="p">(</span><span class="s">bob</span><span class="p">,</span><span class="s">ann</span><span class="p">).</span>
+<span class="nf">parent</span><span class="p">(</span><span class="s">pat</span><span class="p">,</span><span class="s">jim</span><span class="p">).</span>
+<span class="nf">parent</span><span class="p">(</span><span class="s">bob</span><span class="p">,</span><span class="s">peter</span><span class="p">).</span>
+<span class="nf">parent</span><span class="p">(</span><span class="s">peter</span><span class="p">,</span><span class="s">jim</span><span class="p">).</span>
+
+<span class="nf">mother</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">):-</span> <span class="nf">parent</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">),</span><span class="nf">female</span><span class="p">(</span><span class="nv">X</span><span class="p">).</span>
+<span class="nf">sister</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">):-</span> <span class="nf">parent</span><span class="p">(</span><span class="nv">Z</span><span class="p">,</span><span class="nv">X</span><span class="p">),</span><span class="nf">parent</span><span class="p">(</span><span class="nv">Z</span><span class="p">,</span><span class="nv">Y</span><span class="p">),</span><span class="nf">female</span><span class="p">(</span><span class="nv">X</span><span class="p">),</span><span class="nv">X</span><span class="s">\==</span><span class="nv">Y</span><span class="p">.</span>
+<span class="nf">father</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">):-</span> <span class="nf">parent</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">),</span><span class="nf">male</span><span class="p">(</span><span class="nv">X</span><span class="p">).</span>
+<span class="nf">haschild</span><span class="p">(</span><span class="nv">X</span><span class="p">):-</span> <span class="nf">parent</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="k">_</span><span class="p">).</span>
+<span class="nf">brother</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">):-</span><span class="nf">parent</span><span class="p">(</span><span class="nv">Z</span><span class="p">,</span><span class="nv">X</span><span class="p">),</span><span class="nf">parent</span><span class="p">(</span><span class="nv">Z</span><span class="p">,</span><span class="nv">Y</span><span class="p">),</span><span class="nf">male</span><span class="p">(</span><span class="nv">X</span><span class="p">),</span><span class="nv">X</span><span class="s">\==</span><span class="nv">Y</span><span class="p">.</span>
+<span class="nf">grandparent</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">):-</span> <span class="nf">parent</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Z</span><span class="p">),</span><span class="nf">parent</span><span class="p">(</span><span class="nv">Z</span><span class="p">,</span><span class="nv">Y</span><span class="p">).</span>
+<span class="nf">grandmother</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Z</span><span class="p">):-</span> <span class="nf">mother</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">),</span><span class="nf">parent</span><span class="p">(</span><span class="nv">Y</span><span class="p">,</span><span class="nv">Z</span><span class="p">).</span>
+<span class="nf">grandfather</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Z</span><span class="p">):-</span> <span class="nf">father</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">),</span><span class="nf">parent</span><span class="p">(</span><span class="nv">Y</span><span class="p">,</span><span class="nv">Z</span><span class="p">).</span>
+<span class="nf">wife</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">):-</span> <span class="nf">parent</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Z</span><span class="p">),</span><span class="nf">parent</span><span class="p">(</span><span class="nv">Y</span><span class="p">,</span><span class="nv">Z</span><span class="p">),</span><span class="nf">female</span><span class="p">(</span><span class="nv">X</span><span class="p">),</span><span class="nf">male</span><span class="p">(</span><span class="nv">Y</span><span class="p">).</span>
+<span class="nf">uncle</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Z</span><span class="p">):-</span> <span class="nf">brother</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span><span class="nv">Y</span><span class="p">),</span><span class="nf">parent</span><span class="p">(</span><span class="nv">Y</span><span class="p">,</span><span class="nv">Z</span><span class="p">).</span>
+
+</code></pre></div><div id="week-7-iris-data-set" class="anchor"></div>
+<h2 class="relative group">week-7 (Iris-data-set) 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#week-7-iris-data-set" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">datasets</span>
+
+<span class="n">iris</span> <span class="o">=</span> <span class="n">datasets</span><span class="o">.</span><span class="n">load_iris</span><span class="p">()</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python3" data-lang="python3"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="n">_</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">scatter</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">iris</span><span class="o">.</span><span class="n">data</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">iris</span><span class="o">.</span><span class="n">data</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">c</span><span class="o">=</span><span class="n">iris</span><span class="o">.</span><span class="n">target</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">xlabel</span><span class="o">=</span><span class="n">iris</span><span class="o">.</span><span class="n">feature_names</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">ylabel</span><span class="o">=</span><span class="n">iris</span><span class="o">.</span><span class="n">feature_names</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">_</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span>
+    <span class="n">scatter</span><span class="o">.</span><span class="n">legend_elements</span><span class="p">()[</span><span class="mi">0</span><span class="p">],</span> <span class="n">iris</span><span class="o">.</span><span class="n">target_names</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s2">&#34;lower right&#34;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&#34;Classes&#34;</span>
+<span class="p">)</span>
+</code></pre></div><p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /ai-chapter/ai-lab/sl-vs-sw_hu31df904339aafa17801def87985552b2_40876_330x0_resize_box_3.png 330w,
+        /ai-chapter/ai-lab/sl-vs-sw_hu31df904339aafa17801def87985552b2_40876_660x0_resize_box_3.png 660w,
+        /ai-chapter/ai-lab/sl-vs-sw_hu31df904339aafa17801def87985552b2_40876_1024x0_resize_box_3.png 1024w,
+        /ai-chapter/ai-lab/sl-vs-sw_hu31df904339aafa17801def87985552b2_40876_1320x0_resize_box_3.png 2x"
+        src="/ai-chapter/ai-lab/sl-vs-sw_hu31df904339aafa17801def87985552b2_40876_660x0_resize_box_3.png"
+        alt="Image"
+      />
+      
+      
+    </figure>
+  
+
+</p>
+
         </div>
                 
         
@@ -1602,7 +1716,7 @@
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
       &copy;
-      2023
+      2024
       Mohammad Abdul Quadeer
     </p>
     
