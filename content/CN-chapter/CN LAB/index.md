@@ -1,5 +1,5 @@
 ---
-title: "CN LAB"
+title: "1.CN LAB"
 date: 2023-11-10T11:20:05+05:30
 draft: false
 ---
@@ -829,6 +829,7 @@ main(int argc, char *argv[])
 	close(sockid);
 }
 ```
+
 ## Program-10.2 (DNS-Server)
 ```c
 #include<stdio.h>
