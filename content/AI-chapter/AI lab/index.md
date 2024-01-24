@@ -677,5 +677,9 @@ _ = ax.legend(
 ![Image](sl-vs-sw.png)
 
 ## week-8 
-
+{{< alert >}}
+[GOOGLE COLLAB].({{< alert >}}
+ I’ve tried making a program demonstrating all these commands
+{{< /alert >}})
+{{< /alert >}}
 
