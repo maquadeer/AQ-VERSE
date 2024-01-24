@@ -678,8 +678,8 @@ _ = ax.legend(
 
 ## week-8 
 {{< alert >}}
-[GOOGLE COLLAB].({{< alert >}}
- I’ve tried making a program demonstrating all these commands
+<a href= https://colab.research.google.com/drive/10dnhx_Rr-4oksW2yf_sme8jApsWAXmQb?usp=sharing>GOOGLE COLLAB</a>
+{{< /alert >}}
 {{< /alert >}})
 {{< /alert >}}
 
