@@ -680,6 +680,6 @@ _ = ax.legend(
 {{< alert >}}
 <a href= https://colab.research.google.com/drive/10dnhx_Rr-4oksW2yf_sme8jApsWAXmQb?usp=sharing>GOOGLE COLLAB</a>
 {{< /alert >}}
-{{< /alert >}})
-{{< /alert >}}
+
+
 
