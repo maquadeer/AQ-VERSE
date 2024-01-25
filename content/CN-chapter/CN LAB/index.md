@@ -1,5 +1,5 @@
 ---
-title: "1.CN LAB"
+title: "CN LAB"
 date: 2023-11-10T11:20:05+05:30
 draft: false
 ---
