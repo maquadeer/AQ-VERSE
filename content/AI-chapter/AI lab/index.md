@@ -676,4 +676,10 @@ _ = ax.legend(
 ```
 ![Image](sl-vs-sw.png)
 
+## week-8 
+{{< alert >}}
+Click <a href= "https://colab.research.google.com/drive/10dnhx_Rr-4oksW2yf_sme8jApsWAXmQb?usp=sharing">GOOGLE COLLAB</a> to view my notebook
+{{< /alert >}}
+
+
 

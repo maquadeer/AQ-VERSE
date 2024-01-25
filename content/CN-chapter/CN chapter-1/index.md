@@ -3,7 +3,9 @@ title: "CN chapter-1"
 date: 2023-11-09T21:55:57+05:30
 draft: false
 ---
-
+{{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
+Alternatively you can also visit 
+{{< /alert >}}
 # Data Communication Components
 
 ## Representation of Data Communication
