@@ -4,7 +4,7 @@ date: 2023-11-10T11:20:05+05:30
 draft: false
 ---
 {{< alert >}}
-Click <a href= "https://ashonbash.vercel.app">test-gpt</a> to view detailed explanation of below programs.
+Click <a href= "https://quadeer-notes.vercel.app">test-gpt</a> to view detailed explanation of below programs.
 {{< /alert >}}
 
 ## Program-1 : Network Command Explanation
