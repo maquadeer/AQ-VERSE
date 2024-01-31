@@ -681,5 +681,9 @@ _ = ax.legend(
 Click <a href= "https://colab.research.google.com/drive/10dnhx_Rr-4oksW2yf_sme8jApsWAXmQb?usp=sharing">GOOGLE COLLAB</a> to view my notebook
 {{< /alert >}}
 
+## week-9
+{{< alert >}}
+Click <a href= "https://colab.research.google.com/drive/1avaIKFtGbb21i9nIKO7yu0gn52qaTW7r?usp=sharing">GOOGLE COLLAB</a> to view my notebook
+{{< /alert >}}
 
 
