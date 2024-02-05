@@ -9,12 +9,12 @@
     <copyright>© 2024 Mohammad Abdul Quadeer</copyright>
     <lastBuildDate>Fri, 10 Nov 2023 11:20:05 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1.CN LAB</title>
+      <title>CN LAB</title>
       <link>/cn-chapter/cn-lab/</link>
       <pubDate>Fri, 10 Nov 2023 11:20:05 +0530</pubDate>
       
       <guid>/cn-chapter/cn-lab/</guid>
-      <description>Program-1 : Network Command Explanation #   tcpdump  tcpdump is a packet analyzer tool that allows you to capture and analyze network traffic.</description>
+      <description>Click test-gpt to view detailed explanation of below programs.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/cn-chapter/cn-lab/feature.jpeg" />
     </item>
     
