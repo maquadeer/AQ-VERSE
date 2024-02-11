@@ -244,7 +244,7 @@ main(int argc,char * argv[])
 		exit(1);
 	}
 	printf("\nRequest received\nRequest message is :%s\n",buffer);
-	strcat(buffer," Juveriya");
+	strcat(buffer," Quadeer");
 	rval = sendto(sockid,buffer,sizeof(buffer),0,(struct sockaddr *)&c,clen);
 	if(rval == -1){
 		perror("MSG-SND-ERR");
