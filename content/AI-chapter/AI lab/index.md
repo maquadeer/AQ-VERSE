@@ -686,4 +686,32 @@ Click <a href= "https://colab.research.google.com/drive/10dnhx_Rr-4oksW2yf_sme8j
 Click <a href= "https://colab.research.google.com/drive/1avaIKFtGbb21i9nIKO7yu0gn52qaTW7r?usp=sharing">GOOGLE COLLAB</a> to view my notebook
 {{< /alert >}}
 
-
+## week-10
+```py
+import nltk
+from nltk.chat.util import Chat, reflections
+pairs = [
+ [
+ r"my name is (.*)",
+ ["Hello %1, How can I help you with your medical condition today?"]
+ ],
+ [
+ r"hi|hello|hey",
+ ["Hello", "Hey there"]
+ ],
+ [
+ r"what is (.*)",
+ ["%1 is a medical condition characterized by symptoms such as fever, cough, and difficulty breathing."]
+ ],
+ [
+ r"how do you treat (.*)",
+ ["%1 is typically treated with a combination of antibiotics and supportive care."]
+ ],
+ [
+ r"quit",
+ ["Goodbye, take care of your health!"]
+ ]
+]
+chatbot = Chat(pairs, reflections)
+chatbot.converse()
+```
