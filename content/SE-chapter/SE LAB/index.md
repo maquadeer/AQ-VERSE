@@ -15,7 +15,7 @@ UseCase Diagrams:
 click image to zoom in
 {{< /alert >}}
 
-<a href=https://excalidraw.com/#json=kyCyDREPGp8Fe8ur8P2Vc,VmTc5jBaOxQCgLBb78-lXQ>SE-abstract</a>
+<a href="https://excalidraw.com/#json=kyCyDREPGp8Fe8ur8P2Vc,VmTc5jBaOxQCgLBb78-lXQ>SE-abstract"</a>
 
 <br>
 {{< gallery >}}
